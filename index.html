@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bledine Messa Ngunte - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo">Bledine</div>
+                <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hi, I'm <span class="highlight">Bledine Messa Ngunte</span></h1>
+                <p>Computer Science Student at UC Davis with a focus on Web Development and Machine Learning</p>
+                <a href="#contact" class="btn">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="about-image-frame">
+                        <img src="headshot.jpg" alt="Bledine Messa Ngunte" class="profile-image">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p>
+                        I'm a Computer Science student at UC Davis with good grades (3.67 GPA) and hands-on experience 
+                        in web development and software engineering. I enjoy working on real projects that combine 
+                        what I learn in class with practical applications.
+                    </p>
+                    <p>
+                        I work with many programming languages and tools like C, C++, Java, Python, JavaScript, 
+                        and React. I love working on machine learning and web development projects, and I've led 
+                        teams to create useful applications.
+                    </p>
+                    <p>
+                        As Treasurer for both the National Society of Black Engineers (NSBE) and ColorStack at UC Davis,
+                        I help support diversity in tech while growing as a developer and leader.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Coursework</h2>
+            <div class="skills-grid">
+                <div class="skills-category">
+                    <h4>Technical Skills</h4>
+                    <ul>
+                        <li>Programming: C, C++, Java, Python</li>
+                        <li>Web: JavaScript, HTML, CSS, React</li>
+                        <li>Database: PostgreSQL</li>
+                        <li>Tools: Windows, Linux, VS Code</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h4>Relevant Coursework</h4>
+                    <ul>
+                        <li>Machine Learning</li>
+                        <li>Computer Architecture</li>
+                        <li>Operating Systems</li>
+                        <li>Algorithm Analysis & Data Structures</li>
+                        <li>Probability & Statistics</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h4>Soft Skills</h4>
+                    <ul>
+                        <li>Team Leadership</li>
+                        <li>Project Collaboration</li>
+                        <li>Effective Communication</li>
+                        <li>Problem Solving</li>
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="solar.png" alt="Solar Production ML Model">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Solar Production ML Model</h3>
+                        <p class="project-description">
+                            Led a team to develop a machine learning model for predicting solar energy production, 
+                            achieving 90% accuracy using k-fold regression, polynomial regression, and deep neural networks.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Pandas</span>
+                            <span class="tag">GitHub</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="shell.png" alt="Unix-like Shell Program">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Unix-like Shell Program</h3>
+                        <p class="project-description">
+                            Developed a Unix-like shell program implementing core features such as piping, 
+                            output redirection, and essential commands, showcasing strong systems programming skills.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">C</span>
+                            <span class="tag">VS Code</span>
+                            <span class="tag">GitHub</span>
+                            <span class="tag">Systems</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="farmer-market.png" alt="Community Farmers Market App">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Community Farmers Market App</h3>
+                        <p class="project-description">
+                            Developed a web application connecting users to local farmers markets, 
+                            enhancing accessibility for vendors and shoppers using modern web technologies.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Node.js</span>
+                            <span class="tag">SQL</span>
+                            <span class="tag">TypeScript</span>
+                            <span class="tag">React</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">August 2024 - Present</span>
+                        <h3 class="timeline-title">Web Development Intern</h3>
+                        <h4 class="timeline-subtitle">Digital NEST</h4>
+                        <p>
+                            Developed community-driven web applications and Chrome extensions, 
+                            while managing deployment and security on Cloudflare. Contributed to 
+                            projects that improved efficiency for 50+ employees.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">September 2024 - Present</span>
+                        <h3 class="timeline-title">Computer Room Consultant</h3>
+                        <h4 class="timeline-subtitle">IET UC Davis</h4>
+                        <p>
+                            Assist over 100 students and faculty per month with troubleshooting hardware, 
+                            software, and network issues across IET computer rooms. Provide technical support 
+                            for various platforms including macOS and Windows.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience 3 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">June 2024 - August 2025</span>
+                        <h3 class="timeline-title">Developer</h3>
+                        <h4 class="timeline-subtitle">Icarus Dev Team</h4>
+                        <p>
+                            Built company website using React and Material UI, and contributed to 'StenoStudy', 
+                            an AI-powered project for processing academic lectures using OneAPI and TypeScript.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Experience 4 -->
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <span class="timeline-date">June 2024 - August 2025</span>
+                        <h3 class="timeline-title">IT Intern</h3>
+                        <h4 class="timeline-subtitle">CommunicareOLE</h4>
+                        <p>
+                            Managed computer inventory and participated in testing Epic software deployment 
+                            across 1,500+ computers, ensuring system readiness and identifying potential issues.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>Interested in collaborating or learning more about my work? Feel free to reach out!</p>
+            <div class="contact-options">
+                <div class="contact-option">
+                    <div class="contact-icon">📧</div>
+                    <h3>Email</h3>
+                    <p>bledine.ngunte2@gmail.com</p>
+                </div>
+
+                <div class="contact-option">
+                    <div class="contact-icon">📱</div>
+                    <h3>Phone</h3>
+                    <p>(301) 793-7605</p>
+                </div>
+
+                <div class="contact-option">
+                    <div class="contact-icon">📍</div>
+                    <h3>Location</h3>
+                    <p>Davis, CA</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/bledine-messa" class="social-link" target="_blank">in</a>
+                <a href="https://github.com/bledine" class="social-link" target="_blank">gh</a>
+            </div>
+            <p>&copy; 2024 Bledine Messa Ngunte. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        const navToggle = document.querySelector('.nav-toggle');
+        const navLinks = document.querySelector('.nav-links');
+    
+        navToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active'); // Toggle the active class
+        });
+        document.addEventListener('click', (event) => {
+        if (!navToggle.contains(event.target)) {
+            navLinks.classList.remove('active'); // Remove the active class
+        }
+    });
+    </script>
+
+</body>
+</html> 
